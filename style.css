@@ -1,0 +1,55 @@
+body {
+    background-color: #f3f5fc;
+    margin: 0px;
+}
+
+.logo{
+    margin-top: 1%;
+    background-color: red;
+}
+
+.hombre-ahorcado{
+    background-color: green;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.adivinado{
+    text-align: center;
+    background-color: aqua;
+}
+
+.letra {
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+    vertical-align: middle;
+    border-bottom: solid 1px #002462;
+    margin-left: 0.4rem;
+    line-height: 6rem;
+    font-size: 25px;;
+}
+
+.errado{
+    text-align: center;
+    margin-top: 1rem;
+    background-color: yellow;
+}
+
+.botones{
+    text-align: center;
+}
+
+.botonNj{
+    width: 15rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.botonDs{
+    width: 15rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
