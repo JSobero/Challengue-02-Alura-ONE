@@ -1,15 +1,13 @@
 body {
-    background-color: #f3f5fc;
+    background-image: url(./imgs/ween.jpg);
     margin: 0px;
 }
 
 .logo{
     margin-top: 1%;
-    background-color: red;
 }
 
 .hombre-ahorcado{
-    background-color: green;
     margin-top: 3%;
     display: flex;
     justify-content: center;
@@ -17,10 +15,9 @@ body {
 
 .adivinado{
     text-align: center;
-    background-color: aqua;
 }
 
-.letra {
+.adivinada {
     display: inline-block;
     width: 4.5rem;
     height: 4.5rem;
@@ -34,7 +31,10 @@ body {
 .errado{
     text-align: center;
     margin-top: 1rem;
-    background-color: yellow;
+}
+
+.errada{
+    margin-left: 1rem;
 }
 
 .botones{
